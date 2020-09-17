@@ -4,7 +4,7 @@
 ## AWS Services
 * [CloudFront](https://aws.amazon.com/cloudfront/) to use as CDN for caching strategy
 * [Lambda@Edge](https://aws.amazon.com/lambda/edge/) to compile code on the fly
-* [S3 bucket](https://aws.amazon.com/s3/) to store compoent code
+* [S3 bucket](https://aws.amazon.com/s3/) to store component code
 
 ## Overview
 
