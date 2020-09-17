@@ -14,7 +14,7 @@ For some unknown reason CloudFront don't seem to offer ESIs out of the box.
 The majority of other mainstream CDN providers seem to have this covered.
 
 For those companies and individuals that are already invested heavily in the AWS infrastructure,
-I've knocked up a POC to see if it was possible to use Lmabda@Edge to generate a page on the fly and to be cached for a reasonable time.
+I've knocked up a POC to see if it was possible to use Lambda@Edge to generate a page on the fly and to be cached for a reasonable time.
 
 The general idea here is we can add a comment to our pages (`!--{{lambda.component}}-->`) and Lambda@Edge will populate them with the right component data which it will take from an S3 bucket.
 
